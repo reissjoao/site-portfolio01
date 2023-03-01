@@ -1,0 +1,143 @@
+.home-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 100px 70px 0 70px;
+  }
+  
+  .intro-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .intro-text {
+    width: 50%;
+  }
+  
+  .intro-text h1 {
+    font-size: 48px;
+    font-weight: 500;
+  }
+  
+  .intro-text p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+
+  .intro-text a {
+    color: #7f00ff;
+  }
+  
+  .intro-image {
+    width: 40%;
+  }
+
+  img {
+    border-radius: 50%;
+  }
+  
+  .intro-image img {
+    width: 100%;
+  }
+  
+  .latest-posts {
+    margin-bottom: 40px;
+  }
+  
+  .latest-posts h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .latest-posts ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .latest-posts li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #7f00ff;
+    border-radius: 5px;
+  }
+  
+  .latest-posts li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .latest-posts li span {
+    color: #fff;
+    font-size: 0.8rem;
+  }
+
+  .projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .project {
+    width: calc(33.33% - 20px);
+    margin-bottom: 40px;
+    background-color: #7f00ff;
+    box-shadow: 0 2px 10px rgba(36, 36, 36, 0.788);
+    border-radius: 5px;
+    overflow: hidden;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .project:hover {
+    box-shadow: 0 5px 20px rgba(36, 36, 36, 0.788);
+    transform: translateY(-5px);
+  }
+  
+  .project img {
+    display: block;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: 10px;
+  }
+  
+  .project-info {
+    padding: 20px;
+  }
+  
+  .project-title {
+    margin: 0 0 10px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  .project-description {
+    margin: 0 0 20px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fdfdfd;
+  }
+  
+  .project-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .project-link:hover {
+    background-color: #fff;
+    color: #333;
+    font-weight: bold;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+  }
+  

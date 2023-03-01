@@ -1,0 +1,31 @@
+header {
+    background-image: linear-gradient(to right, #370668,#7f00ff);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 1.3rem;
+    font-family: 'Sora', sans-serif;
+    margin-left: 50px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav li a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Sora', sans-serif;
+  }
+
+  button {
+    margin-right: 60px;
+  }
