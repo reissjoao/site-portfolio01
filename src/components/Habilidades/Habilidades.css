@@ -1,0 +1,51 @@
+.tecnology {
+    margin: 50px 0 120px 0;
+}
+  
+.tecnology h2 {
+    font-family: 'Sora', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+  
+.tecnology ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+    display: flex;
+    justify-content: space-between;
+    gap: 90px;
+    
+    font-size: 35px;
+}
+
+  /* ICONES */
+
+  .fa-js {
+    color: #FFDF00;
+  }
+
+  .fa-html5 {
+    color: #CF3A1C;
+  }
+
+  .fa-css3-alt {
+    color: #2760E5;
+  }
+
+  .fa-react {
+    color: #5CCFEE;
+  }
+
+  .fa-git-alt {
+    color: #E44C30;
+  }
+
+  .fa-bootstrap {
+    color: #6B11E9;
+  }
+
+  .fa-wordpress {
+    color: #1F6F93;
+  }

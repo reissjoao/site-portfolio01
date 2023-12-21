@@ -1,0 +1,33 @@
+header {
+  display: flex;
+  justify-content: center;
+    
+  margin-top: 1.25rem;
+  width: 100;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 4rem;
+}
+
+nav li a {
+  color: rgba(255, 255, 255, 0.60);
+  font-family: 'Montserrat', sans-serif;
+
+  text-decoration: none;
+  text-transform: uppercase;
+    
+  font-size: .75rem;
+  font-weight: 700;
+
+  line-height: 2.1875rem;
+  letter-spacing: 0.144rem;
+}
+
+nav li a:hover {
+  color: #FFFFFF;
+  font-weight: 900;
+  transition: all .4s ease;
+}
